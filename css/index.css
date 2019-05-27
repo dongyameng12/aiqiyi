@@ -1,0 +1,19 @@
+html,
+body {
+  user-select: none;
+  background: #ffffff;
+}
+.cont {
+  width: 7.5rem;
+}
+.cont > img {
+  width: 100%;
+  display: block;
+}
+.btn{
+	position: fixed;
+	top: 50%;
+	left: 6.3rem;
+	z-index: 2;
+}
+
