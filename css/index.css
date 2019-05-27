@@ -1,19 +1,28 @@
 html,
 body {
-  user-select: none;
-  background: #ffffff;
+	user-select: none;
+	background: #ffffff;
 }
+
 .cont {
-  width: 7.5rem;
+	width: 7.5rem;
 }
-.cont > img {
-  width: 100%;
-  display: block;
+
+.cont>img {
+	width: 100%;
+	display: block;
 }
-.btn{
+
+.btn {
 	position: fixed;
 	top: 50%;
-	left: 6.3rem;
+	left: calc(100% - 60px);
 	z-index: 2;
 }
 
+.btn2 {
+	position: fixed;
+	bottom: 0;
+	z-index: 2;
+	text-align: center;
+}
